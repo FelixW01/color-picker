@@ -2,16 +2,13 @@
 
 
 ## Description
+A simple React application designed to reinforce state management and props passing. Users can select colors to change the background dynamically and reset to default. This project was created for the purpose of practicing event handling and component interaction.
+
 
 ## Table of Contents
-- [App Demo](#app-demo)
 - [Installation](#installation)
 - [Contributing](#contributing)
 - [Questions](#questions)
-
-## App Demo
-
-
 
 ## Installation
 To run locally, follow these steps:
