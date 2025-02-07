@@ -1,0 +1,41 @@
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.app-div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.4s ease-in-out;
+}
+.color-picker {
+  gap: 0.5rem;
+  display: flex;
+}
+
+.reset,
+.color-button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+  outline: none;
+}
+
+.reset:hover,
+.color-button:hover {
+  transform: translateY(-2px);
+}
